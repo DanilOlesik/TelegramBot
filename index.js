@@ -32,10 +32,7 @@ const start = () => {
         chatId,
         "https://tlgrm.eu/_/stickers/ea5/382/ea53826d-c192-376a-b766-e5abc535f1c9/6.webp"
       );
-      return bot.sendMessage(
-        chatId,
-        `Добро пожаловать в телеграм бот, Мазафакер`
-      );
+      return bot.sendMessage(chatId, `Добро пожаловать в телеграм бот`);
     }
     if (text === "/info") {
       return bot.sendMessage(
