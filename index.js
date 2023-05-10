@@ -9,7 +9,7 @@ const chats = {};
 bot.setMyCommands([
   { command: "/start", description: "Начальное приветствие" },
   { command: "/info", description: "Получить информацию о пользователе" },
-  { command: "/game", description: "Игра угадай цифру, мазафакер" },
+  { command: "/game", description: "Игра угадай цифру" },
 ]);
 
 const startGame = async (chatId) => {
